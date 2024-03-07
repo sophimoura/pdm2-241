@@ -1,6 +1,6 @@
 # Avaliação 02:
 
-##OBS: ATIVIDADE REALIZADA EM DUPLA: [Sophia Moura](https://github.com/sophimoura) & [Sophia Moura](https://github.com/Pedrofarley7)
+##OBS: ATIVIDADE REALIZADA EM DUPLA: [Sophia Moura](https://github.com/sophimoura) & [Pedro Farley](https://github.com/Pedrofarley7)
 
 ## Este repositório está associado à 'Avaliação 02' da disciplina de Programação de Dispositivos Móveis.
 ### • Professor: Ricardo Duarte Taveira.
