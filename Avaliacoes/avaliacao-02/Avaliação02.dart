@@ -36,16 +36,16 @@ class EquipeProjeto {
 
 void main() {
   // 1. Criar vários objetos Dependentes
-  Dependente marido = Dependente("Ailton");
-  Dependente filho = Dependente("Gustavo");
-  Dependente vo = Dependente("Ilda");
-  Dependente vovo = Dependente("Zézin");
+  Dependente mae = Dependente("Maria");
+  Dependente pai = Dependente("José");
+  Dependente filha = Dependente("Eduarda");
+  Dependente cachorro = Dependente("Zeus");
 
   // 2. Criar vários objetos Funcionario
-  Funcionario funcionario1 = Funcionario("Zezão", [filho]);
-  Funcionario funcionario2 = Funcionario("Lidiane", [marido]);
-  Funcionario funcionario3 = Funcionario("Zezão", [vo]);
-  Funcionario funcionario4 = Funcionario("Jubileu", [vovo]);
+  Funcionario funcionario1 = Funcionario("Amanda", [mae]);
+  Funcionario funcionario2 = Funcionario("Fernando", [pai]);
+  Funcionario funcionario3 = Funcionario("João", [filha]);
+  Funcionario funcionario4 = Funcionario("Lucas", [cachorro]);
 
   // 4. Criar uma lista de Funcionarios
   List<Funcionario> funcionarios = [
@@ -56,7 +56,7 @@ void main() {
   ];
 
   // 5. Criar um objeto Equipe Projeto chamando o método construtor
-  EquipeProjeto equipeProjeto = EquipeProjeto('Projeto Aula Taveira', funcionarios);
+  EquipeProjeto equipeProjeto = EquipeProjeto('Projeto 1', funcionarios);
 
   // 6. Printar no formato JSON o objeto Equipe Projeto.
   String equipeProjetoJson = jsonEncode(equipeProjeto.toJson());
