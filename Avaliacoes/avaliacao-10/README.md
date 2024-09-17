@@ -2,7 +2,9 @@
 
 ## Este repositório está associado à 'Avaliação 10' da disciplina de Programação de Dispositivos Móveis.
 ### • Professor: Ricardo Duarte Taveira.
-### • Proposta: Criar um formulário onde são implementadas funcionalidades de validação aos seguintes campos:
+### • Proposta: 
+
+Criar um formulário onde são implementadas funcionalidades de validação aos seguintes campos:
 
 1) Data (Verificar se uma data informada possui o formato dd-mm-aaaa e se a data é valida);
 2) Email (Verificar se um email possui um formato válido);
